@@ -1,21 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no, viewport-fit=cover">
-    <title>23201012014-赵春泽</title>
-    <script src="../fonts/iconfont.js"></script>
-    <script src="../json/index.json"></script>
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../swiper/swiper-bundle.min.css">
-    <!-- 搜索框输入内容返回内容 -->
-    <script>  
-        function handleSearch() {  
-          var input = document.getElementById('search_input').value;  
-          alert("您是不是在搜索" + input + "?");  
-        }  
-    </script> 
-</head>
 <body>
     <!-- 顶部导航栏 -->
     <nav class="t_nav" id="fixed">
@@ -193,4 +175,3 @@
         function arise() {box.style.display = "block";}
     </script>
 </body>
-</html>
