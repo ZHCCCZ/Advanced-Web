@@ -1,57 +1,3 @@
-<body>
-    <!-- 顶部导航栏 -->
-    <nav class="t_nav" id="fixed">
-        <input type="search" class="search_input" id="search_input" name="search_input" placeholder="WELCOME TO STEAM STORE" onkeypress="if (event.key === 'Enter') handleSearch()"> 
-        <svg class="search_input_icon" aria-hidden="true"><use xlink:href="#icon-sousuo"></use></svg>
-        <div><img class="head_img" src="../image/user-head.gif"></div>
-        <ul>
-            <li><a href="#">菜单</a></li>
-            <li><a href="#">愿望单</a></li>
-            <li><a href="#">钱包</a></li>
-        </ul>
-    </nav>
-    <!-- 底部导航栏 -->
-    <nav class="b_nav">
-        <ul>
-            <li><a href="./index.html"><svg class="b_nav_icon" aria-hidden="true"><use xlink:href="#icon-biaoqian-copy"></use></svg></a></li>
-            <li><a href="./new.html"><svg class="b_nav_icon" aria-hidden="true"><use xlink:href="#icon-xinwen09"></use></svg></a></li>
-            <li><a href="./safe.html"><svg class="b_nav_icon" aria-hidden="true"><use xlink:href="#icon-yangshi_icon_tongyong_shield"></use></svg></a></li>
-            <li><a href="./note.html"><svg class="b_nav_icon" aria-hidden="true"><use xlink:href="#icon-icons_notifications"></use></svg></a></li>
-            <li><a href="./user.html"><svg class="b_nav_icon" aria-hidden="true"><use xlink:href="#icon-liebiaogengduo-More"></use></svg></a></li>
-        </ul>
-    </nav>
-    <!-- 内容 -->
-    <a href="https://store.steampowered.com/"><div class="advert_background"></div></a>
-    <h1 class="concent-title">精选和推荐</h1>
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide"><img src="../image/capsule_1.jpg"><div class="swiper-slide-des">Counter-Strike 2<div class="swiper-slide-price">免费开玩</div></div></div>
-            <div class="swiper-slide"><img src="../image/capsule_2.jpg"><div class="swiper-slide-des">房产达人 2<div class="swiper-slide-price">HK$ 175.50</div></div></div>
-            <div class="swiper-slide"><img src="../image/capsule_3.jpg"><div class="swiper-slide-des">Monster Hunter: World<div class="swiper-slide-price">HK$ 77.22</div></div></div>
-            <div class="swiper-slide"><img src="../image/capsule_4.jpg"><div class="swiper-slide-des">使命召唤®<div class="swiper-slide-price">免费开玩</div></div></div>
-            <div class="swiper-slide"><img src="../image/capsule_5.jpg"><div class="swiper-slide-des"> PUBG: BATTLEGROUNDS<div class="swiper-slide-price">免费开玩</div></div></div>
-            <div class="swiper-slide"><img src="../image/capsule_6.jpg"><div class="swiper-slide-des"> Apex Legends™<div class="swiper-slide-price">免费开玩</div></div></div>
-            <div class="swiper-slide"><img src="../image/capsule_7.jpg"><div class="swiper-slide-des"> World of Warships<div class="swiper-slide-price">免费开玩</div></div></div>
-            <div class="swiper-slide"><img src="../image/capsule_8.jpg"><div class="swiper-slide-des"> Granblue Fantasy Versus: Rising<div class="swiper-slide-price">HK$ 398.00</div></div></div>
-            <div class="swiper-slide"><img src="../image/capsule_9.jpg"><div class="swiper-slide-des"> Warframe<div class="swiper-slide-price">免费开玩</div></div></div>
-            <div class="swiper-slide"><img src="../image/capsule_10.jpg"><div class="swiper-slide-des"> 战意<div class="swiper-slide-price">免费开玩</div></div></div>
-            <div class="swiper-slide"><img src="../image/capsule_11.jpg"><div class="swiper-slide-des">THE FINALS<div class="swiper-slide-price">免费开玩</div></div></div>
-            <div class="swiper-slide"><img src="../image/capsule_12.jpg"><div class="swiper-slide-des">魔法使之夜<div class="swiper-slide-price">HK$ 328.50</div></div></div>
-        </div>
-        <div class="swiper-scrollbar"></div>
-    </div>
-    <div class="tab">
-        <div class="tt"><span class="cur">新品与热门商品</span><span>热销商品</span><span>热门即将推出</span><span>优惠</span></div>
-        <!-- 新品与热门商品 -->
-        <div class="tc show"><div id="box"><ul class="json_lst"></ul></div></div>
-        <!-- 热销商品 -->
-        <div class="tc"><a href="#"><img id="tc-img" src="../image/tc-img-1.png"></a></div>
-        <!-- 热门即将推出 -->
-        <div class="tc"><a href="#"><img id="tc-img" src="../image/tc-img-2.png"></a></div>
-        <!-- 优惠 -->
-        <div class="tc"><a href="#"><img id="tc-img" src="../image/tc-img-3.png"></a></div>
-    </div>
-
     <!-- JavaScript -->
     <script src="../swiper/swiper-bundle.min.js"></script>
     <!-- 轮播图 -->
@@ -174,4 +120,3 @@
         function hide() {box.style.display = "none";}
         function arise() {box.style.display = "block";}
     </script>
-</body>
